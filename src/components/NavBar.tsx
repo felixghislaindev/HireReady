@@ -27,13 +27,13 @@ const NavBar = () => {
       </nav>
       <div className="space-x-4">
         <Link
-          href="#signup"
+          href="/signup"
           className="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700"
         >
           Sign Up
         </Link>
         <Link
-          href="#login"
+          href="/login"
           className="bg-transparent border-2 border-purple-600 text-purple-600 py-2 px-4 rounded-lg hover:bg-purple-600 hover:text-white"
         >
           Login
