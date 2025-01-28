@@ -12,7 +12,7 @@ const NavBar = () => {
         <Link href="/" className="hover:text-purple-600">
           Home
         </Link>
-        <Link href="#dashboard" className="hover:text-purple-600">
+        <Link href="/dashboard" className="hover:text-purple-600">
           Dashboard
         </Link>
         <Link href="/pricing" className="hover:text-purple-600">
