@@ -1,6 +1,6 @@
-"use client";
 import { useState } from "react";
 import Head from "next/head";
+import Image from "next/image";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -64,25 +64,31 @@ const Login = () => {
             <p className="text-gray-400 mb-4">Or log in with</p>
             <div className="flex gap-4 justify-center">
               <button className="flex items-center px-6 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition-all duration-300">
-                <img
+                <Image
                   src="/icons/google-icon.svg"
                   alt="Google"
+                  width={24}
+                  height={24}
                   className="w-5 h-5 mr-2"
                 />
                 Google
               </button>
               <button className="flex items-center px-6 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition-all duration-300">
-                <img
+                <Image
                   src="/icons/yahoo-icon.svg"
                   alt="Yahoo"
+                  width={24}
+                  height={24}
                   className="w-5 h-5 mr-2"
                 />
                 Yahoo
               </button>
               <button className="flex items-center px-6 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition-all duration-300">
-                <img
+                <Image
                   src="/icons/github-icon.svg"
                   alt="GitHub"
+                  width={24}
+                  height={24}
                   className="w-5 h-5 mr-2"
                 />
                 GitHub
