@@ -54,7 +54,7 @@ const Contact = () => {
         </h1>
         <p className="text-lg mb-8 max-w-4xl mx-auto text-gray-400">
           Need help or have questions? Our team is here to assist you. Fill out
-          the form below, and we’ll get back to you as soon as possible.
+          the form below, and we&apos;ll get back to you as soon as possible.
         </p>
       </section>
 
@@ -138,7 +138,7 @@ const Contact = () => {
         </h2>
         <p className="text-lg mb-8 max-w-4xl mx-auto text-gray-400">
           Check out our FAQs or email us directly at{" "}
-          <strong>support@hireready.com</strong>. We're here to help you!
+          <strong>support@hireready.com</strong>. We&apos;re here to help you!
         </p>
         <a
           href="/faq"

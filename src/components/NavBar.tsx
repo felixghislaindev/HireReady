@@ -1,42 +1,43 @@
-// /components/NavBar.tsx
+import Link from "next/link";
+
 const NavBar = () => {
   return (
     <header className="bg-black text-white flex justify-between items-center py-4 px-8">
       <div className="text-3xl font-bold">
-        <a href="/" className="text-white">
+        <Link href="/" className="text-white">
           HireReady
-        </a>
+        </Link>
       </div>
       <nav className="space-x-6 text-lg">
-        <a href="/" className="hover:text-purple-600">
+        <Link href="/" className="hover:text-purple-600">
           Home
-        </a>
-        <a href="#dashboard" className="hover:text-purple-600">
+        </Link>
+        <Link href="#dashboard" className="hover:text-purple-600">
           Dashboard
-        </a>
-        <a href="/pricing" className="hover:text-purple-600">
+        </Link>
+        <Link href="/pricing" className="hover:text-purple-600">
           Pricing
-        </a>
-        <a href="/faqs" className="hover:text-purple-600">
+        </Link>
+        <Link href="/faqs" className="hover:text-purple-600">
           FAQs
-        </a>
-        <a href="/contact-support" className="hover:text-purple-600">
+        </Link>
+        <Link href="/contact-support" className="hover:text-purple-600">
           Contact Support
-        </a>
+        </Link>
       </nav>
       <div className="space-x-4">
-        <a
+        <Link
           href="#signup"
           className="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700"
         >
           Sign Up
-        </a>
-        <a
+        </Link>
+        <Link
           href="#login"
           className="bg-transparent border-2 border-purple-600 text-purple-600 py-2 px-4 rounded-lg hover:bg-purple-600 hover:text-white"
         >
           Login
-        </a>
+        </Link>
       </div>
     </header>
   );

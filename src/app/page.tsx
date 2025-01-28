@@ -88,7 +88,7 @@ const Home = () => {
           See the Magic in Action ✨
         </h2>
         <p className="text-lg mb-8 max-w-4xl mx-auto text-gray-400">
-          Try HireReady’s job matching and interview preparation tools for
+          Try HireReady&rsquo;s job matching and interview preparation tools for
           yourself. Paste a job description or input your skills, and watch how
           our AI provides personalized job matches, skill gap analysis, and
           tailored interview questions in real-time!
@@ -116,8 +116,9 @@ const Home = () => {
         </h2>
         <p className="text-lg mb-8 max-w-4xl mx-auto text-gray-400">
           Take the first step towards smarter job hunting! Automate your job
-          matching, skill gap analysis, and interview prep with HireReady's
-          AI-powered platform. Focus on what matters and let us handle the rest.
+          matching, skill gap analysis, and interview prep with
+          HireReady&rsquo;s AI-powered platform. Focus on what matters and let
+          us handle the rest.
         </p>
         <a
           href="#cta"

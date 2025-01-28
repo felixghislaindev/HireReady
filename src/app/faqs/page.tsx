@@ -49,9 +49,9 @@ const FAQ = () => {
       <section className="bg-black text-white text-center py-24 px-8">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">FAQs 🤔</h1>
         <p className="text-lg mb-8 max-w-4xl mx-auto text-gray-400">
-          Have questions about HireReady? We’ve got you covered! Check out the
-          frequently asked questions below to learn more about how HireReady can
-          help you.
+          Have questions about HireReady? We&rsquo;ve got you covered! Check out
+          the frequently asked questions below to learn more about how HireReady
+          can help you.
         </p>
       </section>
 
@@ -73,11 +73,11 @@ const FAQ = () => {
       {/* CTA Section */}
       <section className="bg-black text-white text-center py-24 px-8">
         <h2 className="text-3xl font-semibold mb-6">
-          Didn’t find what you were looking for? 🚀
+          Didn&rsquo;t find what you were looking for? 🚀
         </h2>
         <p className="text-lg mb-8 max-w-4xl mx-auto text-gray-400">
           Get in touch with us for more information or personalized support.
-          We're here to help you succeed!
+          We&apos;re here to help you succeed!
         </p>
         <a
           href="/contact"
